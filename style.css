@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    background-size: 100%;
+    background: 
+        linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+        url(./Duben.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(235, 188, 35);
+    font-size: 46px;
+}
+
+.people {
+    display: flex;
+}
+
+.avatar {
+    width: 300;
+    height: 250px;
+}
+
+.skills {
+    color: rgb(235, 188, 35);
+    font-size: 24px;
+}
+
+.skill {
+    font-size: 18px;
+}
+
+p {
+    text-indent: 24px;
+    color: rgb(235, 188, 35);
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.certificate {
+   max-width: 100%;
+}
